@@ -1,5 +1,5 @@
 # TDS_LOVE
-Top dows shooter on https://love2d.org. Not finished and developing is stopted.
+Top dows shooter on https://love2d.org. Not finished and developing is stopped.
 
 RU:
 
