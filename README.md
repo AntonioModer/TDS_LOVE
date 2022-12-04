@@ -1,2 +1,2 @@
 # TDS_LOVE
-top dows shooter on love2d.org
+Top dows shooter on love2d.org. Not finished and developing in stopted.
