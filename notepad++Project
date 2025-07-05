@@ -1,0 +1,681 @@
+<NotepadPlus>
+    <Project name="&#x0418;&#x043C;&#x044F; &#x043F;&#x0440;&#x043E;&#x0435;&#x043A;&#x0442;&#x0430;">
+        <Folder name="binaries">
+            <Folder name="LOVE">
+                <Folder name="0.10.2">
+                    <Folder name="32">
+                        <File name="binaries\LOVE\0.10.2\32\changes.txt" />
+                        <File name="binaries\LOVE\0.10.2\32\game.ico" />
+                        <File name="binaries\LOVE\0.10.2\32\license.txt" />
+                        <File name="binaries\LOVE\0.10.2\32\love.dll" />
+                        <File name="binaries\LOVE\0.10.2\32\love.exe" />
+                        <File name="binaries\LOVE\0.10.2\32\love.ico" />
+                        <File name="binaries\LOVE\0.10.2\32\lovec.exe" />
+                        <File name="binaries\LOVE\0.10.2\32\lua51.dll" />
+                        <File name="binaries\LOVE\0.10.2\32\mpg123.dll" />
+                        <File name="binaries\LOVE\0.10.2\32\msvcp120.dll" />
+                        <File name="binaries\LOVE\0.10.2\32\msvcr120.dll" />
+                        <File name="binaries\LOVE\0.10.2\32\OpenAL32.dll" />
+                        <File name="binaries\LOVE\0.10.2\32\readme.txt" />
+                        <File name="binaries\LOVE\0.10.2\32\SDL2.dll" />
+                    </Folder>
+                    <Folder name="64">
+                        <File name="binaries\LOVE\0.10.2\64\changes.txt" />
+                        <File name="binaries\LOVE\0.10.2\64\game.ico" />
+                        <File name="binaries\LOVE\0.10.2\64\license.txt" />
+                        <File name="binaries\LOVE\0.10.2\64\love.dll" />
+                        <File name="binaries\LOVE\0.10.2\64\love.exe" />
+                        <File name="binaries\LOVE\0.10.2\64\love.ico" />
+                        <File name="binaries\LOVE\0.10.2\64\lovec.exe" />
+                        <File name="binaries\LOVE\0.10.2\64\lua51.dll" />
+                        <File name="binaries\LOVE\0.10.2\64\mpg123.dll" />
+                        <File name="binaries\LOVE\0.10.2\64\msvcp120.dll" />
+                        <File name="binaries\LOVE\0.10.2\64\msvcr120.dll" />
+                        <File name="binaries\LOVE\0.10.2\64\OpenAL32.dll" />
+                        <File name="binaries\LOVE\0.10.2\64\readme.txt" />
+                        <File name="binaries\LOVE\0.10.2\64\SDL2.dll" />
+                    </Folder>
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="code">
+            <Folder name="ai">
+                <Folder name="logic" />
+                <Folder name="pathfinding">
+                    <File name="code\ai\pathfinding\graph.lua" />
+                    <File name="code\ai\pathfinding\matrix.lua" />
+                    <File name="code\ai\pathfinding\navmesh alpha.png" />
+                    <File name="code\ai\pathfinding\navMesh.lua" />
+                </Folder>
+                <File name="code\ai\flocking behaviour by box2d.kra" />
+                <File name="code\ai\flocking behaviour by box2d.png" />
+                <File name="code\ai\flocking behaviour by box2d.png~" />
+                <File name="code\ai\pathfinding.lua" />
+            </Folder>
+            <Folder name="classes">
+                <Folder name="AI">
+                    <Folder name="Pathfinding">
+                        <File name="code\classes\AI\Pathfinding\Graph.lua" />
+                        <File name="code\classes\AI\Pathfinding\ListClosed.lua" />
+                        <File name="code\classes\AI\Pathfinding\PriorityQueueOpen.lua" />
+                    </Folder>
+                </Folder>
+                <Folder name="Component" />
+                <Folder name="Entity">
+                    <Folder name="AI">
+                        <Folder name="Pathfinding">
+                            <File name="code\classes\Entity\AI\Pathfinding\Node.lua" />
+                        </Folder>
+                        <File name="code\classes\Entity\AI\Agent.lua" />
+                    </Folder>
+                    <Folder name="Door">
+                        <File name="code\classes\Entity\Door\DoorWall.lua" />
+                    </Folder>
+                    <Folder name="Item">
+                        <Folder name="Ammo">
+                            <File name="code\classes\Entity\Item\Ammo\Test.lua" />
+                        </Folder>
+                        <Folder name="Projectile">
+                            <File name="code\classes\Entity\Item\Projectile\Arrow.lua" />
+                            <File name="code\classes\Entity\Item\Projectile\Explosion.lua" />
+                            <File name="code\classes\Entity\Item\Projectile\Fire.lua" />
+                            <File name="code\classes\Entity\Item\Projectile\Grenade.lua" />
+                            <File name="code\classes\Entity\Item\Projectile\Rocket.lua" />
+                            <File name="code\classes\Entity\Item\Projectile\Test.lua" />
+                        </Folder>
+                        <Folder name="Weapon">
+                            <Folder name="Ranged">
+                                <Folder name="Firearm">
+                                    <File name="code\classes\Entity\Item\Weapon\Ranged\Firearm\Pistol.lua" />
+                                </Folder>
+                                <File name="code\classes\Entity\Item\Weapon\Ranged\Crossbow.lua" />
+                                <File name="code\classes\Entity\Item\Weapon\Ranged\Firearm.lua" />
+                                <File name="code\classes\Entity\Item\Weapon\Ranged\Flamethrower.lua" />
+                                <File name="code\classes\Entity\Item\Weapon\Ranged\GrenadeLauncher.lua" />
+                                <File name="code\classes\Entity\Item\Weapon\Ranged\RocketLauncher.lua" />
+                            </Folder>
+                            <File name="code\classes\Entity\Item\Weapon\Ranged.lua" />
+                        </Folder>
+                        <File name="code\classes\Entity\Item\Ammo.lua" />
+                        <File name="code\classes\Entity\Item\BottleBig.lua" />
+                        <File name="code\classes\Entity\Item\Container.lua" />
+                        <File name="code\classes\Entity\Item\Projectile.lua" />
+                        <File name="code\classes\Entity\Item\Weapon.lua" />
+                        <File name="code\classes\Entity\Item\WoodPlank.lua" />
+                    </Folder>
+                    <Folder name="Trigger">
+                        <File name="code\classes\Entity\Trigger\Circle.lua" />
+                        <File name="code\classes\Entity\Trigger\Rectangle.lua" />
+                    </Folder>
+                    <File name="code\classes\Entity\Barrel.lua" />
+                    <File name="code\classes\Entity\Crate.lua" />
+                    <File name="code\classes\Entity\Door.lua" />
+                    <File name="code\classes\Entity\Explosion.lua" />
+                    <File name="code\classes\Entity\Humanoid.lua" />
+                    <File name="code\classes\Entity\Item.lua" />
+                    <File name="code\classes\Entity\Light.lua" />
+                    <File name="code\classes\Entity\Middle.lua" />
+                    <File name="code\classes\Entity\Radiosity.lua" />
+                    <File name="code\classes\Entity\Test1.lua" />
+                    <File name="code\classes\Entity\Test2.lua" />
+                    <File name="code\classes\Entity\TestCircle.lua" />
+                    <File name="code\classes\Entity\TestRectangle.lua" />
+                    <File name="code\classes\Entity\TestSound.lua" />
+                    <File name="code\classes\Entity\Tree.lua" />
+                    <File name="code\classes\Entity\Trigger.lua" />
+                </Folder>
+                <Folder name="Graph">
+                    <File name="code\classes\Graph\Graph.lua" />
+                    <File name="code\classes\Graph\Node.lua" />
+                </Folder>
+                <Folder name="UI">
+                    <Folder name="List">
+                        <File name="code\classes\UI\List\Text.lua" />
+                    </Folder>
+                    <File name="code\classes\UI\List.lua" />
+                    <File name="code\classes\UI\TextInput.lua" />
+                </Folder>
+                <File name="code\classes\Chart.lua" />
+                <File name="code\classes\ClassTemplate.lua" />
+                <File name="code\classes\Component.lua" />
+                <File name="code\classes\Entity.lua" />
+                <File name="code\classes\Sprite.lua" />
+                <File name="code\classes\UI.lua" />
+            </Folder>
+            <Folder name="codeDesignPatterns">
+                <File name="code\codeDesignPatterns\state.lua" />
+            </Folder>
+            <Folder name="debug">
+                <File name="code\debug\charts.lua" />
+                <File name="code\debug\log.lua" />
+                <File name="code\debug\ui.lua" />
+            </Folder>
+            <Folder name="gamera">
+                <File name="code\gamera\init.lua" />
+                <File name="code\gamera\MIT-LICENSE.txt" />
+                <File name="code\gamera\README.md" />
+            </Folder>
+            <Folder name="graphics">
+                <Folder name="light">
+                    <Folder name="shadows">
+                        <Folder name="byThomasLacroix">
+                            <File name="code\graphics\light\shadows\byThomasLacroix\blurH.glsl" />
+                            <File name="code\graphics\light\shadows\byThomasLacroix\blurV.glsl" />
+                            <File name="code\graphics\light\shadows\byThomasLacroix\distort.glsl" />
+                            <File name="code\graphics\light\shadows\byThomasLacroix\reduce.glsl" />
+                            <File name="code\graphics\light\shadows\byThomasLacroix\shadow.glsl" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <Folder name="radiosity">
+                    <File name="code\graphics\radiosity\compile.glsl" />
+                    <File name="code\graphics\radiosity\light3.png" />
+                    <File name="code\graphics\radiosity\obstacles6Red.png" />
+                    <File name="code\graphics\radiosity\onlyRed.glsl" />
+                    <File name="code\graphics\radiosity\prepareLight.glsl" />
+                </Folder>
+                <File name="code\graphics\color.lua" />
+                <File name="code\graphics\light.lua" />
+                <File name="code\graphics\particles.lua" />
+                <File name="code\graphics\point.lua" />
+                <File name="code\graphics\sprite.lua" />
+                <File name="code\graphics\tests.lua" />
+            </Folder>
+            <Folder name="hardoncollider">
+                <File name="code\hardoncollider\class.lua" />
+                <File name="code\hardoncollider\gjk.lua" />
+                <File name="code\hardoncollider\hardoncollider-1.0-1.rockspec" />
+                <File name="code\hardoncollider\init.lua" />
+                <File name="code\hardoncollider\polygon.lua" />
+                <File name="code\hardoncollider\README" />
+                <File name="code\hardoncollider\shapes.lua" />
+                <File name="code\hardoncollider\spatialhash.lua" />
+                <File name="code\hardoncollider\vector-light.lua" />
+            </Folder>
+            <Folder name="hump">
+                <Folder name="docs">
+                    <Folder name="_static">
+                        <File name="code\hump\docs\_static\graph-tweens.js" />
+                        <File name="code\hump\docs\_static\in-out-interpolators.png" />
+                        <File name="code\hump\docs\_static\interpolators.png" />
+                        <File name="code\hump\docs\_static\inv-interpolators.png" />
+                        <File name="code\hump\docs\_static\vector-cross.png" />
+                        <File name="code\hump\docs\_static\vector-mirrorOn.png" />
+                        <File name="code\hump\docs\_static\vector-perpendicular.png" />
+                        <File name="code\hump\docs\_static\vector-projectOn.png" />
+                        <File name="code\hump\docs\_static\vector-rotated.png" />
+                    </Folder>
+                    <File name="code\hump\docs\camera.rst" />
+                    <File name="code\hump\docs\class.rst" />
+                    <File name="code\hump\docs\conf.py" />
+                    <File name="code\hump\docs\gamestate.rst" />
+                    <File name="code\hump\docs\index.rst" />
+                    <File name="code\hump\docs\license.rst" />
+                    <File name="code\hump\docs\Makefile" />
+                    <File name="code\hump\docs\signal.rst" />
+                    <File name="code\hump\docs\timer.rst" />
+                    <File name="code\hump\docs\vector-light.rst" />
+                    <File name="code\hump\docs\vector.rst" />
+                </Folder>
+                <Folder name="docs_html">
+                    <Folder name="_images">
+                        <File name="code\hump\docs_html\_images\vector-perpendicular.png" />
+                        <File name="code\hump\docs_html\_images\vector-projectOn.png" />
+                        <File name="code\hump\docs_html\_images\vector-rotated.png" />
+                    </Folder>
+                    <Folder name="_static">
+                        <Folder name="css">
+                            <File name="code\hump\docs_html\_static\css\badge_only.css" />
+                            <File name="code\hump\docs_html\_static\css\theme.css" />
+                        </Folder>
+                        <Folder name="fonts">
+                            <File name="code\hump\docs_html\_static\fonts\fontawesome-webfont.eot" />
+                            <File name="code\hump\docs_html\_static\fonts\fontawesome-webfont.svg" />
+                            <File name="code\hump\docs_html\_static\fonts\fontawesome-webfont.ttf" />
+                            <File name="code\hump\docs_html\_static\fonts\fontawesome-webfont.woff" />
+                            <File name="code\hump\docs_html\_static\fonts\Inconsolata-Bold.ttf" />
+                            <File name="code\hump\docs_html\_static\fonts\Inconsolata-Regular.ttf" />
+                            <File name="code\hump\docs_html\_static\fonts\Lato-Bold.ttf" />
+                            <File name="code\hump\docs_html\_static\fonts\Lato-Regular.ttf" />
+                            <File name="code\hump\docs_html\_static\fonts\RobotoSlab-Bold.ttf" />
+                            <File name="code\hump\docs_html\_static\fonts\RobotoSlab-Regular.ttf" />
+                        </Folder>
+                        <Folder name="js">
+                            <File name="code\hump\docs_html\_static\js\modernizr.min.js" />
+                            <File name="code\hump\docs_html\_static\js\theme.js" />
+                        </Folder>
+                        <File name="code\hump\docs_html\_static\ajax-loader.gif" />
+                        <File name="code\hump\docs_html\_static\basic.css" />
+                        <File name="code\hump\docs_html\_static\comment-bright.png" />
+                        <File name="code\hump\docs_html\_static\comment-close.png" />
+                        <File name="code\hump\docs_html\_static\comment.png" />
+                        <File name="code\hump\docs_html\_static\doctools.js" />
+                        <File name="code\hump\docs_html\_static\down-pressed.png" />
+                        <File name="code\hump\docs_html\_static\down.png" />
+                        <File name="code\hump\docs_html\_static\file.png" />
+                        <File name="code\hump\docs_html\_static\graph-tweens.js" />
+                        <File name="code\hump\docs_html\_static\in-out-interpolators.png" />
+                        <File name="code\hump\docs_html\_static\interpolators.png" />
+                        <File name="code\hump\docs_html\_static\inv-interpolators.png" />
+                        <File name="code\hump\docs_html\_static\jquery-1.11.1.js" />
+                        <File name="code\hump\docs_html\_static\jquery.js" />
+                        <File name="code\hump\docs_html\_static\minus.png" />
+                        <File name="code\hump\docs_html\_static\plus.png" />
+                        <File name="code\hump\docs_html\_static\pygments.css" />
+                        <File name="code\hump\docs_html\_static\searchtools.js" />
+                        <File name="code\hump\docs_html\_static\underscore-1.3.1.js" />
+                        <File name="code\hump\docs_html\_static\underscore.js" />
+                        <File name="code\hump\docs_html\_static\up-pressed.png" />
+                        <File name="code\hump\docs_html\_static\up.png" />
+                        <File name="code\hump\docs_html\_static\vector-cross.png" />
+                        <File name="code\hump\docs_html\_static\vector-mirrorOn.png" />
+                        <File name="code\hump\docs_html\_static\vector-perpendicular.png" />
+                        <File name="code\hump\docs_html\_static\vector-projectOn.png" />
+                        <File name="code\hump\docs_html\_static\vector-rotated.png" />
+                        <File name="code\hump\docs_html\_static\websupport.js" />
+                    </Folder>
+                    <File name="code\hump\docs_html\.buildinfo" />
+                    <File name="code\hump\docs_html\index.html" />
+                    <File name="code\hump\docs_html\objects.inv" />
+                </Folder>
+                <File name="code\hump\camera.lua" />
+                <File name="code\hump\class.lua" />
+                <File name="code\hump\gamestate.lua" />
+                <File name="code\hump\README.md" />
+                <File name="code\hump\signal.lua" />
+                <File name="code\hump\timer.lua" />
+                <File name="code\hump\vector-light.lua" />
+                <File name="code\hump\vector.lua" />
+            </Folder>
+            <Folder name="load">
+                <File name="code\load\tests.lua" />
+            </Folder>
+            <Folder name="logic">
+                <File name="code\logic\state.lua" />
+            </Folder>
+            <Folder name="math">
+                <Folder name="clipper">
+                    <Folder name="bin">
+                        <Folder name="linux32">
+                            <File name="code\math\clipper\bin\linux32\libclipper.a" />
+                            <File name="code\math\clipper\bin\linux32\libclipper.so" />
+                        </Folder>
+                        <Folder name="linux64">
+                            <File name="code\math\clipper\bin\linux64\libclipper.a" />
+                            <File name="code\math\clipper\bin\linux64\libclipper.so" />
+                        </Folder>
+                        <Folder name="mingw32">
+                            <File name="code\math\clipper\bin\mingw32\clipper.a" />
+                            <File name="code\math\clipper\bin\mingw32\clipper.dll" />
+                        </Folder>
+                        <Folder name="mingw64">
+                            <File name="code\math\clipper\bin\mingw64\clipper.a" />
+                            <File name="code\math\clipper\bin\mingw64\clipper.dll" />
+                        </Folder>
+                        <Folder name="osx32">
+                            <File name="code\math\clipper\bin\osx32\libclipper.a" />
+                            <File name="code\math\clipper\bin\osx32\libclipper.dylib" />
+                        </Folder>
+                        <Folder name="osx64">
+                            <File name="code\math\clipper\bin\osx64\libclipper.a" />
+                            <File name="code\math\clipper\bin\osx64\libclipper.dylib" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="csrc">
+                        <Folder name="clipper">
+                            <File name="code\math\clipper\csrc\clipper\build-linux32.sh" />
+                            <File name="code\math\clipper\csrc\clipper\build-linux64.sh" />
+                            <File name="code\math\clipper\csrc\clipper\build-mingw32.sh" />
+                            <File name="code\math\clipper\csrc\clipper\build-mingw64.sh" />
+                            <File name="code\math\clipper\csrc\clipper\build-osx32.sh" />
+                            <File name="code\math\clipper\csrc\clipper\build-osx64.sh" />
+                            <File name="code\math\clipper\csrc\clipper\build.sh" />
+                            <File name="code\math\clipper\csrc\clipper\clipper.cpp" />
+                            <File name="code\math\clipper\csrc\clipper\clipper.hpp" />
+                            <File name="code\math\clipper\csrc\clipper\clipper_c.cpp" />
+                            <File name="code\math\clipper\csrc\clipper\LICENSE" />
+                            <File name="code\math\clipper\csrc\clipper\WHAT" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="media">
+                        <Folder name="www">
+                            <File name="code\math\clipper\media\www\clipper_demo.png" />
+                        </Folder>
+                    </Folder>
+                    <File name="code\math\clipper\clipper.lua" />
+                    <File name="code\math\clipper\clipper.md" />
+                    <File name="code\math\clipper\clipper_demo.lua" />
+                </Folder>
+                <Folder name="delaunayTriangulation">
+                    <Folder name="byYonaba">
+                        <Folder name=".travis">
+                            <File name="code\math\delaunayTriangulation\byYonaba\.travis\setup_lua.sh" />
+                        </Folder>
+                        <Folder name="docs">
+                            <Folder name="scripts">
+                                <File name="code\math\delaunayTriangulation\byYonaba\docs\scripts\delaunay.html" />
+                            </Folder>
+                            <File name="code\math\delaunayTriangulation\byYonaba\docs\index.html" />
+                        </Folder>
+                        <Folder name="performance">
+                            <File name="code\math\delaunayTriangulation\byYonaba\performance\bench.lua" />
+                        </Folder>
+                        <Folder name="rockspecs">
+                            <File name="code\math\delaunayTriangulation\byYonaba\rockspecs\delaunay-0.1-1.rockspec" />
+                        </Folder>
+                        <Folder name="specs">
+                            <File name="code\math\delaunayTriangulation\byYonaba\specs\.luacov" />
+                            <File name="code\math\delaunayTriangulation\byYonaba\specs\delaunay.lua" />
+                            <File name="code\math\delaunayTriangulation\byYonaba\specs\edge.lua" />
+                            <File name="code\math\delaunayTriangulation\byYonaba\specs\point.lua" />
+                            <File name="code\math\delaunayTriangulation\byYonaba\specs\triangle.lua" />
+                        </Folder>
+                        <File name="code\math\delaunayTriangulation\byYonaba\.gitignore" />
+                        <File name="code\math\delaunayTriangulation\byYonaba\.travis.yml" />
+                        <File name="code\math\delaunayTriangulation\byYonaba\delaunay.lua" />
+                        <File name="code\math\delaunayTriangulation\byYonaba\LICENSE" />
+                        <File name="code\math\delaunayTriangulation\byYonaba\README.md" />
+                        <File name="code\math\delaunayTriangulation\byYonaba\version_history.md" />
+                    </Folder>
+                    <File name="code\math\delaunayTriangulation\delaunaytriangulation2.lua" />
+                    <File name="code\math\delaunayTriangulation\delaunayTriangulation2Test.lua" />
+                    <File name="code\math\delaunayTriangulation\delaunayTriangulationByYonabaTest.lua" />
+                </Folder>
+                <Folder name="gamemathByPelevesque">
+                    <File name="code\math\gamemathByPelevesque\.gitattributes" />
+                    <File name="code\math\gamemathByPelevesque\.gitignore" />
+                    <File name="code\math\gamemathByPelevesque\collisions.lua" />
+                    <File name="code\math\gamemathByPelevesque\LICENSE.md" />
+                    <File name="code\math\gamemathByPelevesque\README.md" />
+                    <File name="code\math\gamemathByPelevesque\trigonometry.lua" />
+                </Folder>
+                <Folder name="itraykov">
+                    <Folder name="tests">
+                        <Folder name="data">
+                            <File name="code\math\itraykov\tests\data\10000.txt" />
+                            <File name="code\math\itraykov\tests\data\2.txt" />
+                            <File name="code\math\itraykov\tests\data\bird.txt" />
+                            <File name="code\math\itraykov\tests\data\broke.txt" />
+                            <File name="code\math\itraykov\tests\data\e.txt" />
+                            <File name="code\math\itraykov\tests\data\fish.txt" />
+                            <File name="code\math\itraykov\tests\data\gmholes-weak.txt" />
+                            <File name="code\math\itraykov\tests\data\gmholes-weak2.txt" />
+                            <File name="code\math\itraykov\tests\data\gmholes-weak3.txt" />
+                            <File name="code\math\itraykov\tests\data\gmholes-weak4.txt" />
+                            <File name="code\math\itraykov\tests\data\gmholes3.txt" />
+                            <File name="code\math\itraykov\tests\data\gmholes4.txt" />
+                            <File name="code\math\itraykov\tests\data\guy.txt" />
+                            <File name="code\math\itraykov\tests\data\guy2.txt" />
+                            <File name="code\math\itraykov\tests\data\hex.txt" />
+                            <File name="code\math\itraykov\tests\data\long.txt" />
+                            <File name="code\math\itraykov\tests\data\map.txt" />
+                            <File name="code\math\itraykov\tests\data\nazca.txt" />
+                            <File name="code\math\itraykov\tests\data\nazca2.txt" />
+                            <File name="code\math\itraykov\tests\data\spiral.txt" />
+                            <File name="code\math\itraykov\tests\data\star.txt" />
+                            <File name="code\math\itraykov\tests\data\tank.txt" />
+                        </Folder>
+                        <File name="code\math\itraykov\tests\poly.lua" />
+                        <File name="code\math\itraykov\tests\tritest.lua" />
+                        <File name="code\math\itraykov\tests\vec.lua" />
+                        <File name="code\math\itraykov\tests\wave.lua" />
+                    </Folder>
+                    <File name="code\math\itraykov\curves.lua" />
+                    <File name="code\math\itraykov\hamilton.lua" />
+                    <File name="code\math\itraykov\kinematic.lua" />
+                    <File name="code\math\itraykov\line.lua" />
+                    <File name="code\math\itraykov\md5.lua" />
+                    <File name="code\math\itraykov\msq.lua" />
+                    <File name="code\math\itraykov\overlap.lua" />
+                    <File name="code\math\itraykov\poly.lua" />
+                    <File name="code\math\itraykov\poly2.lua" />
+                    <File name="code\math\itraykov\project.lua" />
+                    <File name="code\math\itraykov\readme.txt" />
+                    <File name="code\math\itraykov\steering.lua" />
+                    <File name="code\math\itraykov\sweep.lua" />
+                    <File name="code\math\itraykov\tform.lua" />
+                    <File name="code\math\itraykov\tween.lua" />
+                    <File name="code\math\itraykov\vec.lua" />
+                    <File name="code\math\itraykov\wave.lua" />
+                </Folder>
+                <Folder name="poly2tri">
+                    <File name="code\math\poly2tri\poly2tri-x64.dll" />
+                    <File name="code\math\poly2tri\poly2tri-x86.dll" />
+                    <File name="code\math\poly2tri\Releases &#x00B7; TannerRogalsky_lua-poly2tri.maff" />
+                    <File name="code\math\poly2tri\TannerRogalsky_lua-poly2tri  A Lua wrapper around poly2tri.maff" />
+                    <File name="code\math\poly2tri\test.lua" />
+                </Folder>
+                <File name="code\math\circle.lua" />
+                <File name="code\math\clipperTest.lua" />
+                <File name="code\math\itraykovPoly2Test.lua" />
+                <File name="code\math\line.lua" />
+                <File name="code\math\point.lua" />
+                <File name="code\math\polygon.lua" />
+                <File name="code\math\rectangle.lua" />
+                <File name="code\math\transform.lua" />
+                <File name="code\math\vectorFFITest.lua" />
+            </Folder>
+            <Folder name="player">
+                <File name="code\player\movement.lua" />
+            </Folder>
+            <Folder name="temp" />
+            <Folder name="types" />
+            <Folder name="update">
+                <File name="code\update\tests.lua" />
+            </Folder>
+            <File name="code\ai.lua" />
+            <File name="code\camera.lua" />
+            <File name="code\Class.lua" />
+            <File name="code\codingStandarts.lua" />
+            <File name="code\console.lua" />
+            <File name="code\debug.lua" />
+            <File name="code\draw.lua" />
+            <File name="code\file.lua" />
+            <File name="code\filesystem.lua" />
+            <File name="code\game.lua" />
+            <File name="code\graphics.lua" />
+            <File name="code\input.lua" />
+            <File name="code\load.lua" />
+            <File name="code\math.lua" />
+            <File name="code\physics.lua" />
+            <File name="code\player.lua" />
+            <File name="code\sound.lua" />
+            <File name="code\table.lua" />
+            <File name="code\tableToTXT.lua" />
+            <File name="code\timer.lua" />
+            <File name="code\ui.lua" />
+            <File name="code\update.lua" />
+            <File name="code\utf8KS.lua" />
+            <File name="code\utf8KSv2.lua" />
+            <File name="code\world.lua" />
+            <File name="code\worldEditor.lua" />
+        </Folder>
+        <Folder name="resources">
+            <Folder name="fonts">
+                <File name="resources\fonts\AntonioModerFont8pt_6x11pix_Ascent10.png" />
+                <File name="resources\fonts\AntonioModerFont8pt_6x11pix_Ascent10BW.png" />
+                <File name="resources\fonts\AntonioModerFont8pt_6x11pix_Ascent10White.png" />
+                <File name="resources\fonts\AntonioModerFont8pt_6x11pix_Ascent10_Fony.fon" />
+                <File name="resources\fonts\AntonioModerFont8pt_7x13pix_Ascent10Black.png" />
+                <File name="resources\fonts\DejaVuSansMono-Bold.ttf" />
+                <File name="resources\fonts\DejaVuSansMono-BoldOblique.ttf" />
+                <File name="resources\fonts\DejaVuSansMono-Oblique.ttf" />
+                <File name="resources\fonts\DejaVuSansMono.ttf" />
+                <File name="resources\fonts\Resource-Imagefont.png" />
+            </Folder>
+            <Folder name="images">
+                <Folder name="editor">
+                    <File name="resources\images\editor\light.png" />
+                </Folder>
+                <Folder name="human">
+                    <File name="resources\images\human\body.dds" />
+                    <File name="resources\images\human\body.png" />
+                    <File name="resources\images\human\body.png~" />
+                    <File name="resources\images\human\handsIdle.png" />
+                    <File name="resources\images\human\handsRun.png" />
+                    <File name="resources\images\human\head.dds" />
+                    <File name="resources\images\human\head.png" />
+                    <File name="resources\images\human\head.png~" />
+                    <File name="resources\images\human\humanoid.png" />
+                    <File name="resources\images\human\humanoidPoseDefault.png" />
+                    <File name="resources\images\human\template.kra" />
+                    <File name="resources\images\human\template.png" />
+                    <File name="resources\images\human\template.xcf" />
+                    <File name="resources\images\human\weaponOneInTwoHands.png" />
+                    <File name="resources\images\human\weaponOneInTwoHandsBody.png" />
+                    <File name="resources\images\human\weaponOneInTwoHandsBody.xcf" />
+                </Folder>
+                <Folder name="objects">
+                    <Folder name="barrels">
+                        <File name="resources\images\objects\barrels\TexturesCom_Barrels0008_1_S_42x64.png" />
+                        <File name="resources\images\objects\barrels\TexturesCom_Barrels0011_S_41x64.png" />
+                    </Folder>
+                    <Folder name="bottles">
+                        <File name="resources\images\objects\bottles\IMG_20170207_203815_forGame_small.png" />
+                    </Folder>
+                    <Folder name="crates">
+                        <File name="resources\images\objects\crates\TexturesCom_Cargo0095_S_64x67.png" />
+                        <File name="resources\images\objects\crates\TexturesCom_Cargo0097_S_64x64.png" />
+                    </Folder>
+                    <Folder name="items">
+                        <Folder name="ammo">
+                            <Folder name="test">
+                                <File name="resources\images\objects\items\ammo\test\onFloor.png" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="projectile">
+                            <Folder name="arrow">
+                                <File name="resources\images\objects\items\projectile\arrow\onFloor.png" />
+                            </Folder>
+                            <Folder name="common">
+                                <File name="resources\images\objects\items\projectile\common\onFloor.png" />
+                            </Folder>
+                            <Folder name="fire">
+                                <File name="resources\images\objects\items\projectile\fire\onFloor.png" />
+                            </Folder>
+                            <Folder name="rocket">
+                                <File name="resources\images\objects\items\projectile\rocket\onFloor.png" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="test">
+                            <File name="resources\images\objects\items\test\onFloor.png" />
+                            <File name="resources\images\objects\items\test\taken.lua" />
+                            <File name="resources\images\objects\items\test\taken.png" />
+                        </Folder>
+                        <Folder name="weapons">
+                            <Folder name="crossbow">
+                                <File name="resources\images\objects\items\weapons\crossbow\aiming.lua" />
+                                <File name="resources\images\objects\items\weapons\crossbow\onFloor.png" />
+                                <File name="resources\images\objects\items\weapons\crossbow\taken.lua" />
+                            </Folder>
+                            <Folder name="grenadeLauncher">
+                                <File name="resources\images\objects\items\weapons\grenadeLauncher\aiming.lua" />
+                                <File name="resources\images\objects\items\weapons\grenadeLauncher\onFloor.png" />
+                                <File name="resources\images\objects\items\weapons\grenadeLauncher\taken.lua" />
+                                <File name="resources\images\objects\items\weapons\grenadeLauncher\taken.png" />
+                            </Folder>
+                            <Folder name="rocketLauncher">
+                                <File name="resources\images\objects\items\weapons\rocketLauncher\aiming.lua" />
+                                <File name="resources\images\objects\items\weapons\rocketLauncher\onFloor.png" />
+                                <File name="resources\images\objects\items\weapons\rocketLauncher\taken.lua" />
+                                <File name="resources\images\objects\items\weapons\rocketLauncher\taken.png" />
+                            </Folder>
+                            <Folder name="test">
+                                <File name="resources\images\objects\items\weapons\test\aiming.lua" />
+                                <File name="resources\images\objects\items\weapons\test\onFloor.png" />
+                                <File name="resources\images\objects\items\weapons\test\taken.lua" />
+                                <File name="resources\images\objects\items\weapons\test\taken.png" />
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <Folder name="woodPlanks">
+                        <File name="resources\images\objects\woodPlanks\TexturesCom_WoodPlanksBare0135_1_S_1_128x16.png" />
+                        <File name="resources\images\objects\woodPlanks\TexturesCom_WoodPlanksBare0135_1_S_2_128x16.png" />
+                    </Folder>
+                    <File name="resources\images\objects\tree.png" />
+                    <File name="resources\images\objects\tree2048.png" />
+                </Folder>
+                <Folder name="other">
+                    <Folder name="light">
+                        <File name="resources\images\other\light\light1.png" />
+                        <File name="resources\images\other\light\lightDebug.png" />
+                        <File name="resources\images\other\light\LightSmooth readme.txt" />
+                        <File name="resources\images\other\light\LightSmooth.ggr" />
+                        <File name="resources\images\other\light\lightSmooth1024.png" />
+                        <File name="resources\images\other\light\lightSmooth256.png" />
+                        <File name="resources\images\other\light\lightSmooth512.dds" />
+                        <File name="resources\images\other\light\lightSmooth512.png" />
+                    </Folder>
+                    <File name="resources\images\other\grid.dds" />
+                    <File name="resources\images\other\grid.png" />
+                    <File name="resources\images\other\test.dds" />
+                    <File name="resources\images\other\test.png" />
+                    <File name="resources\images\other\testWhite.png" />
+                </Folder>
+                <Folder name="temporary">
+                    <File name="resources\images\temporary\128x128 color.dds" />
+                    <File name="resources\images\temporary\128x128 color.png" />
+                    <File name="resources\images\temporary\128x128.dds" />
+                    <File name="resources\images\temporary\128x128.png" />
+                    <File name="resources\images\temporary\32x32 color.dds" />
+                    <File name="resources\images\temporary\32x32 color.png" />
+                    <File name="resources\images\temporary\4x4 color.dds" />
+                    <File name="resources\images\temporary\4x4 color.png" />
+                    <File name="resources\images\temporary\allColors.png" />
+                    <File name="resources\images\temporary\allColorsDTX5.dds" />
+                    <File name="resources\images\temporary\Test.dds" />
+                    <File name="resources\images\temporary\Test.png" />
+                </Folder>
+                <File name="resources\images\desktop.ini" />
+            </Folder>
+            <Folder name="scenes">
+                <Folder name="test">
+                    <File name="resources\scenes\test\test.lua" />
+                </Folder>
+            </Folder>
+            <Folder name="sound">
+                <Folder name="abelinair_people-talking">
+                    <File name="resources\sound\abelinair_people-talking\238387__abelinair__people-talking.wav" />
+                    <File name="resources\sound\abelinair_people-talking\Freesound.org - &apos;people talking.wav&apos; by abelinair.maff" />
+                </Folder>
+                <Folder name="csengeri_thunderstorm">
+                    <File name="resources\sound\csengeri_thunderstorm\235828__csengeri__thunderstorm-on-2nd-of-may-2014-part-2.mp3" />
+                    <File name="resources\sound\csengeri_thunderstorm\Freesound.org - &apos;Thunderstorm on 2nd of May 2014 part 2&apos; by csengeri.maff" />
+                </Folder>
+                <Folder name="lennyboy_thunder">
+                    <File name="resources\sound\lennyboy_thunder\244053__lennyboy__thunder.ogg" />
+                    <File name="resources\sound\lennyboy_thunder\Freesound.org - &apos;Thunder.ogg&apos; by lennyboy.maff" />
+                </Folder>
+                <Folder name="nabito_phone">
+                    <File name="resources\sound\nabito_phone\60901__nabito__phone.wav" />
+                    <File name="resources\sound\nabito_phone\60901__nabito__phone_mono.ogg" />
+                    <File name="resources\sound\nabito_phone\Freesound.org - &apos;phone.wav&apos; by Nabito.maff" />
+                </Folder>
+            </Folder>
+            <Folder name="worlds">
+                <Folder name="test">
+                    <Folder name="images">
+                        <File name="resources\worlds\test\images\test.dds" />
+                        <File name="resources\worlds\test\images\TexturesUsed.txt" />
+                    </Folder>
+                    <File name="resources\worlds\test\test.lua" />
+                </Folder>
+            </Folder>
+        </Folder>
+        <File name="Changes.txt" />
+        <File name="conf (2).lua" />
+        <File name="conf.lua" />
+        <File name="last.log.lnk" />
+        <File name="main.lua" />
+        <File name="noGameMode.lua" />
+        <File name="RunWithLove32.bat" />
+        <File name="RunWithLove64_0.10.2.bat" />
+        <File name="screenshot.png" />
+        <File name="_.gitattributes" />
+        <File name="_.gitignore" />
+        <File name="&#x0421;&#x043D;&#x0438;&#x043C;&#x043E;&#x043A; &#x044D;&#x043A;&#x0440;&#x0430;&#x043D;&#x0430; 2022-01-08 173539.png" />
+        <File name="&#x0421;&#x043D;&#x0438;&#x043C;&#x043E;&#x043A; &#x044D;&#x043A;&#x0440;&#x0430;&#x043D;&#x0430; 2022-01-08 173743.png" />
+        <File name="&#x0421;&#x043D;&#x0438;&#x043C;&#x043E;&#x043A; &#x044D;&#x043A;&#x0440;&#x0430;&#x043D;&#x0430; 2022-01-08 180432.png" />
+        <File name="&#x0421;&#x043D;&#x0438;&#x043C;&#x043E;&#x043A; &#x044D;&#x043A;&#x0440;&#x0430;&#x043D;&#x0430; 2022-01-08 181819.png" />
+    </Project>
+</NotepadPlus>
